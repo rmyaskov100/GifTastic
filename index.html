@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Giphy Button Review</title>
+  <meta charset="utf-8">
+  <link ref="stylesheet" hrel="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Shrikhand" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="wholeThing">
+
+<div class="jumbotron" id="header">
+  <h1>Giphy's World</h1>
+  <h4>Click the buttons to display GIPHYs of your favorite actors<br>Click the GIPHYs to pause and play<br>Search to add more buttons!</h4>
+</div>
+
+<form class="form-inline" id="giphySearch">
+  <div class="form-group">
+    <label for="giphyInput">Search for your favorite actors</label>
+    <input type="text" id="giphyInput">
+  </div>
+  <!-- Button triggers gifs to be added -->
+  <input id="addGifs" type="submit" value="submit">
+</form>
+
+<div class="row">
+  <div class="container">
+    <div class="btn-group inline pull-left">
+      <button class="btn btn-primary" id="show" data-search="Jackie Chan">Jackie Chan</button>
+      <button class="btn btn-primary" id="show" data-search="Bruce Lee">Bruce Lee</button>
+      <button class="btn btn-primary" id="show" data-search="Jet Li">Jet Li</button>
+      <button class="btn btn-primary" id="show" data-search="Jean-Claude Van Damme">Jean-Claude Van Damme</button>
+      <div id="myButtons"></div>
+    </div> 
+  </div>
+</div> 
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> 
+</div> 
+
+
+<script src="gif.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>

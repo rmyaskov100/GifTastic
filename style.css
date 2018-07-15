@@ -1,0 +1,61 @@
+body{
+	height: 100%;
+	background: url('https://i.imgur.com/TXD25B4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Shrikhand', cursive;
+    font-size: 25px;
+}
+
+
+#header {
+	background-color: #e50914;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Shrikhand', cursive;
+}
+
+#topImageL {
+	width: 15%;
+	float: left;
+	margin-left: 20px;
+}
+
+#topImageR {
+	width: 15%;
+	float: right;
+	margin-right: 20px;
+}
+
+label {
+	font-size: 18px;
+}
+
+#show {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#actorsSearch {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Shrikhand', cursive;
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.actorsGiphy {
+	padding: 2px;
+	width: 80%;
+}
